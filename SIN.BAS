@@ -1,0 +1,5 @@
+10 FOR A = 0! TO 3.1415926# STEP .1
+20 PRINT TAB(20! + 40! * SIN(A)); "***"
+30 NEXT A
+40 END
+

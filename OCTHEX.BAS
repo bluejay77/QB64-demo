@@ -1,0 +1,11 @@
+5 CLS
+10 PRINT "X = ",
+20 INPUT X
+30 DIM A$(10), B$(10)
+40 LET A$ = HEX$(X)
+50 LET B$ = OCT$(X)
+60 PRINT "X", X
+62 PRINT "HEX(X)", A$
+64 PRINT "OCT(X)", B$
+70 END
+
